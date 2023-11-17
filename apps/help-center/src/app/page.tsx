@@ -1,9 +1,9 @@
-import { ButtonSecondary } from "ui";
+import { ButtonPrimary } from "ui";
 
 export default function Page(): JSX.Element {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <ButtonSecondary>DOCS</ButtonSecondary>
+      <ButtonPrimary>HELP CENTER</ButtonPrimary>
     </main>
   );
 }
